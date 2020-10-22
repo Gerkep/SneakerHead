@@ -1,0 +1,39 @@
+
+#brand{
+    font-style: italic;
+    font-size: 35px;
+    min-font-size: 20px;
+    max-font-size: 40px;
+}
+#navbar{
+    background-color: #1b1e21;
+}
+#footer{
+    background-color: #d6d8d9;
+}
+#developer{
+    font-style: italic;
+    font-size: 15px;
+}
+#news{
+background-image: url("img/Nike Supreme.jpeg");
+    background-position: 150px;
+    background-position-x: right;
+}
+#checkItButton{
+    border-color: black;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: black;
+}
+#navbarText{
+    font-size: 23px;
+}
+#navButton{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}

@@ -29,11 +29,3 @@ background-image: url("img/Nike Supreme.jpeg");
 #navbarText{
     font-size: 23px;
 }
-#navButton{
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-}

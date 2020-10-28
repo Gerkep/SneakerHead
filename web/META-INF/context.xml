@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context>
     <Resource
-            name="jdbc/weekop"
+            name="jdbc/myloginpage"
             auth="Container"
             type="javax.sql.DataSource"
             initialSize="10"
@@ -15,7 +15,7 @@
 
     <Realm
             className="org.apache.catalina.realm.DataSourceRealm"
-            dataSourceName="jdbc/weekop"
+            dataSourceName="jdbc/myloginpage"
             userTable="user"
             userNameCol="username"
             userCredCol="password"

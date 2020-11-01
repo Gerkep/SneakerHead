@@ -10,7 +10,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
 <html>
 <head>
-    <title>Title</title>
+    <title>SneakerHeadz</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -20,7 +20,17 @@
 <body>
 <jsp:include page="fragments/navbar.jspf"></jsp:include>
 
+<div class="container">
+    <div class="row">
+        <img src="img/buty-meskie-air-max-plus-84QCpR.jpg">
+        <div class="col-md-8">
+        <h2>Air Max Plus</h2>
+        <h5>Bardzo wygodne vlavlav blablba cośtam fajny tekst</h5>
+        <button class="btn btn-lg btn-light">Kup</button>
+        </div>
+    </div>
 
+</div>
 <jsp:include page="fragments/footbar.jspf"></jsp:include>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

@@ -4,12 +4,16 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
-    <display-name>SneakrHeads</display-name>
+    <display-name>Weekop09</display-name>
     <security-constraint>
+        <display-name>Login required</display-name>
         <web-resource-collection>
             <web-resource-name>Auth</web-resource-name>
-            <description>Features that can be accesed after login</description>
-            <url-pattern></url-pattern>
+            <description>Resources that can be accessed after login</description>
+            <url-pattern>/add</url-pattern>
+            <url-pattern>/login</url-pattern>
+            <http-method>GET</http-method>
+            <http-method>POST</http-method>
         </web-resource-collection>
         <auth-constraint>
             <role-name>user</role-name>
@@ -17,10 +21,10 @@
         </auth-constraint>
     </security-constraint>
     <security-role>
-        <role-name>admin</role-name>
+        <role-name>user</role-name>
     </security-role>
     <security-role>
-        <role-name>user</role-name>
+        <role-name>admin</role-name>
     </security-role>
     <login-config>
         <auth-method>FORM</auth-method>

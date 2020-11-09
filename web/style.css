@@ -29,3 +29,14 @@ background-image: url("img/Nike Supreme.jpeg");
 #navbarText{
     font-size: 23px;
 }
+#buyButton{
+    border-radius: 30px;
+}
+#active{
+    background-color: #545b62;
+    color: white;
+}
+#sizes{
+    margin-left: 20px;
+    margin-right: 20px;
+}

@@ -22,13 +22,22 @@
 
 <div class="container">
     <div class="row">
+        <p></p>
+    </div>
+    <div class="row">
         <div class="col-md-5">
         <img height="400" width="400" src="img/buty-meskie-air-max-plus-84QCpR.jpg">
         </div>
         <div class="col-md-7">
         <h2>Air Max Plus</h2>
         <h5>Bardzo wygodne vlavlav blablba cośtam fajny tekst</h5>
-        <button class="btn btn-lg btn-light">Kup</button>
+            <div id="sizes" class="row">
+                <button class="btn btn-light">42</button>
+                <button id="active" class="btn btn-light">43</button>
+                <button class="btn btn-light">44</button>
+                <button class="btn btn-light">45</button>
+            </div>
+        <button id="buyButton" class="btn btn-primary">Kup</button>
         </div>
     </div>
 

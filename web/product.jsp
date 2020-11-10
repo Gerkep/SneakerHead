@@ -31,6 +31,7 @@
         <div class="col-md-7">
         <h2>Air Max Plus</h2>
         <h5>Bardzo wygodne vlavlav blablba cośtam fajny tekst</h5>
+            <h6 class="description">Best of all sokmething for winter ore sfaf ameiann. Zapewniają doskonałą przyczepność na drodze</h6>
             <div id="sizes" class="row">
                 <button class="btn btn-light">42</button>
                 <button id="active" class="btn btn-light">43</button>

@@ -30,11 +30,7 @@ background-image: url("img/Nike Supreme.jpeg");
 }
 #buyButton{
     border-radius: 30px;
-    width: 100%;
-}
-#active{
-    background-color: #545b62;
-    color: white;
+    width: 30%;
 }
 #sizes{
     margin-top: 30px;
@@ -42,7 +38,7 @@ background-image: url("img/Nike Supreme.jpeg");
     margin-right: 20px;
 }
 .description{
-    font-size: x-small;
+    font-size: small;
     font-style: italic;
     color: darkgrey;
 }

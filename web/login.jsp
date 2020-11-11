@@ -16,7 +16,7 @@
 </head>
 <body>
 <jsp:include page="fragments/navbar.jspf"></jsp:include>
-<div class="container">
+<div class="container justify-content-center">
     <div class="col-sm-6 col-md-4 col-md-offset-4">
     <form class="form-signin" action="j_security_check" method="post">
         <h2 class="form-signin-heading">Zaloguj się</h2>

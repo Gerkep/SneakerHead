@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   </head>
-  <body>
+  <body id="body">
   <jsp:include page="fragments/navbar.jspf"></jsp:include>
 
   <div id="news" class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">

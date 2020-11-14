@@ -4,9 +4,6 @@
     min-font-size: 20px;
     max-font-size: 40px;
 }
-#navbar{
-    background-color: #1b1e21;
-}
 #footer{
     background-color: #d6d8d9;
 }
@@ -44,4 +41,7 @@ background-image: url("img/Nike Supreme.jpeg");
 }
 .dropdown-menu{
     color: #1d2124;
+}
+body {
+    padding-top: 65px;
 }

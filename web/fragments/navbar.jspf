@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <nav id="navbar" class="navbar navbar-expand-sm navbar-dark fixed-top">
-    <div id="brand" class="navbar-brand"><a href="${pageContext.request.contextPath}"></a>SneakerHeads</div>
+    <div id="brand" class="navbar-brand nav-link"><a href="${pageContext.request.contextPath}"></a>SneakerHeads</div>
 
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul id="navbarText" class="nav navbar-nav">

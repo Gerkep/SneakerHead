@@ -33,6 +33,7 @@ background-image: url("img/Nike Supreme.jpeg");
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 10rem;
 }
 .description{
     font-size: small;
@@ -44,4 +45,13 @@ background-image: url("img/Nike Supreme.jpeg");
 }
 body {
     padding-top: 65px;
+}
+#navbar{
+    color: black;
+}
+.form-control{
+    margin-bottom: 10px;
+}
+.form-signin{
+    justify-content: center;
 }
